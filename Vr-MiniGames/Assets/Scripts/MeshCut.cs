@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace BLINDED_AM_ME{
+namespace MeshCutter
+{
 
 	public class MeshCut{
 
