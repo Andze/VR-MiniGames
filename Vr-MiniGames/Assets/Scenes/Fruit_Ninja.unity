@@ -385,6 +385,10 @@ Prefab:
       propertyPath: m_Name
       value: Sword (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 122624, guid: 2b335bf40e2a46b44868e6f61805e176, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b335bf40e2a46b44868e6f61805e176, type: 2}
   m_IsPrefabParent: 0
