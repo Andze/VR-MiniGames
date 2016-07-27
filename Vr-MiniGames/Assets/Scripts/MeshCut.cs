@@ -221,7 +221,8 @@ namespace MeshCutter
 			GameObject rightSideObj = new GameObject("right side", typeof(MeshFilter), typeof(MeshRenderer));
 			rightSideObj.transform.position = victim.transform.position;
 			rightSideObj.transform.rotation = victim.transform.rotation;
-			rightSideObj.GetComponent<MeshFilter>().mesh = right_HalfMesh;
+            rightSideObj.transform.localScale = victim.transform.localScale;
+            rightSideObj.GetComponent<MeshFilter>().mesh = right_HalfMesh;
 		
 
 			// assign mats
